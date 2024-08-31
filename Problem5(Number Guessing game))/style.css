@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitGuess {
+    background-color: white;
+    color: black;
+}
+
+#restartGame {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#restartGame:hover {
+    background-color: white;
+    color: black;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#attemptsLeft {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.end-message {
+    color: red;
+    font-weight: bold;
+}
