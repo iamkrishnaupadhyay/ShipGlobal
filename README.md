@@ -1,14 +1,9 @@
 # ShipGlobal
 
 1. Accordion with Arrow Animation
-   
-Project Title: Accordion with Arrow Animation
-
-Description: This is a basic accordion that shows and hides content when you click on the headers. The arrow changes direction based on whether the content is open or closed.
-
-Technologies Used: HTML, CSS, JavaScript
-Features:
-
+Description: This is a basic accordion that shows and hides content when you click on the headers. The arrow changes direction based on whether the content is 
+open or closed.
+Technologies Used: HTML, CSS, JavaScripFeatures:
 Click to show or hide content.
 Arrow direction changes on click.
 How to Use:
@@ -16,7 +11,6 @@ Just open the index.html file in your browser.
 
 
 3. Carousel with Fallback Image
-Project Title: Image Carousel with Fallback Image
 Description: This is an image carousel that slides through a series of images. If an image can't be loaded, it shows a fallback image instead.
 Technologies Used: HTML, CSS, JavaScript
 Features:
@@ -28,7 +22,6 @@ Open the index.html file in your browser to see the carousel in action.
 
 
 4. Number Guessing Game
-Project Title: Number Guessing Game
 Live Link: https://numguessingame.netlify.app/
 Description: A simple game where you guess a random number between 1 and 100. You have 5 attempts to guess correctly.
 Technologies Used: HTML, CSS, JavaScript
