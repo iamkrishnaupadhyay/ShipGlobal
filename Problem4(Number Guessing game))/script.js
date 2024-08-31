@@ -23,7 +23,7 @@ submitGuessButton.addEventListener("click", function () {
         submitGuessButton.disabled = true;
         userGuessInput.disabled = true;
     } else if (attemptsLeft === 0) {
-        feedbackElement.textContent = "Your attempts are over. Game over!";
+        feedbackElement.textContent = `Game over! Number is ${randomNumber}`;
         feedbackElement.classList.add("end-message");
         submitGuessButton.disabled = true;
         userGuessInput.disabled = true;
