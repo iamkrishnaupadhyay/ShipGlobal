@@ -11,11 +11,12 @@ body {
 
 section {
     min-height: 100vh;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .title {
@@ -68,4 +69,19 @@ section {
 
 .accordion:not(.active) .content {
     transition: max-height 0.6s ease; 
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+    .accordion {
+        max-width: 100%;
+    }
+    .header h3 {
+        font-size: 1.4rem;
+    }
+    .content p {
+        font-size: 1.2rem;
+    }
 }

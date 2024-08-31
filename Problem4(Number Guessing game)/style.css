@@ -10,6 +10,9 @@ body {
 }
 
 .game-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
     border: 2px solid white;
     padding: 20px;
@@ -22,7 +25,8 @@ h1 {
 
 input[type="number"] {
     padding: 10px;
-    width: 80%;
+    width: 100%;
+    max-width: 300px;
     font-size: 16px;
     margin-bottom: 10px;
     border: none;
@@ -68,4 +72,19 @@ button {
 .end-message {
     color: red;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    input[type="number"] {
+        font-size: 1.2rem;
+    }
+    button {
+        font-size: 1rem;
+    }
 }
